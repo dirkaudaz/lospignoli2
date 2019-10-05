@@ -22,7 +22,7 @@ const UsedBy = () => (
       }
     `}
     render={data => (
-      <Section id="brands" accent>
+      <Section id="dresscode" accent>
         <Container>
           <Grid>
             <Art>

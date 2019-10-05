@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 
 import { Section, Container } from '@components/global';
 
-const About = () => (
+const WTF = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -44,7 +44,7 @@ const About = () => (
       }
     `}
     render={data => (
-      <Section id="about">
+      <Section id="wtf">
         <Container>
           <Grid>
             <div>
@@ -135,4 +135,4 @@ const Art = styled.figure`
   width: 100%;
 `;
 
-export default About;
+export default WTF;
