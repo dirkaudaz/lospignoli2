@@ -7,34 +7,34 @@ import { Section, Container } from '@components/global';
 
 const TEAM = [
   {
-    name: 'Josh Peck',
+    name: 'Maritza Piña',
+    image: 'rosie.jpg',
+    role: 'Novia',
+  },
+  {
+    name: 'Osvaldo Piña',
     image: 'josh.jpg',
-    role: 'Founder',
+    role: 'Padre de la Novia',
   },
   {
-    name: 'Lisa Haydon',
-    image: 'lisa.jpg',
-    role: 'Art Director',
-  },
-  {
-    name: 'Ashlyn Harris',
+    name: 'Maritza Bustamante',
     image: 'ashlyn.jpg',
-    role: 'Frontend Engineer',
+    role: 'Madre de la Novia',
   },
   {
-    name: 'Todd Joseph',
-    image: 'todd.jpg',
-    role: 'Designer',
+    name: 'Sebastián Brugnoli',
+    image: 'jeanluc.jpg',
+    role: 'Novio',
   },
   {
-    name: 'Martin White',
+    name: 'Lorenzo Brugnoli',
     image: 'martin.jpg',
-    role: 'Backend Engineer',
+    role: 'Padre del Novio',
   },
   {
-    name: 'Rose Leslie',
+    name: 'Luz Maria González',
     image: 'rose.jpg',
-    role: 'Marketing',
+    role: 'Madre del Novio',
   },
 ];
 
@@ -56,7 +56,7 @@ const Team = () => (
         }
         art_team: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "team_work" }
+          name: { eq: "team" }
         ) {
           childImageSharp {
             fluid(maxWidth: 1600) {
@@ -69,7 +69,7 @@ const Team = () => (
     render={data => (
       <Section id="team" accent="secondary">
         <Container style={{ position: 'relative' }}>
-          <h1>The Team</h1>
+          <h1>El Equipo</h1>
           <TeamGrid>
             {TEAM.map(({ name, image, role }) => {
               const img = data.allFile.edges.find(
@@ -122,7 +122,7 @@ const TeamGrid = styled.div`
 
 const Art = styled.figure`
   width: 800px;
-  margin: -80px 0;
+  margin: 200px 0;
   position: absolute;
   top: 0;
   left: 70%;

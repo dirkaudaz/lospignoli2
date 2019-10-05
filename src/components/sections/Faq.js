@@ -3,62 +3,69 @@ import React from 'react';
 import { Section, Container } from '@components/global';
 
 import FaqItem from '@common/FaqItem';
-import ExternalLink from '@common/ExternalLink';
 
 const FAQS = [
   {
-    title: 'What tech does Gatsby use?',
+    title: '¿Es seguro el barrio?',
     content: () => (
       <>
-        Enjoy the power of the latest web technologies – React.js , Webpack ,
-        modern JavaScript and CSS and more — all set up and waiting for you to
-        start building
+        Sobornamos a todos los delincuentes para que ese día se queden en sus casas, así que tranqui.
       </>
     ),
   },
   {
-    title: 'Where can you source data from?',
+    title: '¿Cómo llego si no tengo auto?',
     content: () => (
       <>
-        Gatsby’s rich data plugin ecosystem lets you build sites with the data
-        you want — from one or many sources: Pull data from headless CMSs, SaaS
-        services, APIs, databases, your file system, and more directly into your
-        pages using GraphQL.
+        Toma el metro hasta la Plaza de Puente Alto (L4) y toma taxi, di que vas a las parcelas de la pintana, pasado “La vuelta de Cachencho” (tenemos puntos de geolocalización más precisos que un GPS en estos pueblos).
+Toma el metrotren hasta San Bernardo y toma un taxi. Dile que vaya por Camino El Mariscal hasta las parcelas de La Pintana.
       </>
     ),
   },
   {
-    title: 'How do I scale Gatsby sites?',
+    title: 'Voy en auto, ¿hay estacionamiento?',
     content: () => (
       <>
-        Gatsby.js is Internet Scale. Forget complicated deploys with databases
-        and servers and their expensive, time-consuming setup costs,
-        maintenance, and scaling fears. Gatsby.js builds your site as “static”
-        files which can be deployed easily on dozens of services.
+        Sí, hay estacionamiento cerrado con cuidador.
       </>
     ),
   },
   {
-    title: 'How does do I future-proof my website?',
+    title: '¿Qué les regalamos?',
     content: () => (
       <>
-        Do not build a website with last decade’s tech. The future of the web is
-        mobile, JavaScript and APIs—the{` `}
-        <ExternalLink href="https://jamstack.org/">JAMstack</ExternalLink>.
-        Every website is a web app and every web app is a website. Gatsby.js is
-        the universal JavaScript framework you’ve been waiting for.
+        Aceptamos bienes raíces, piedras preciosas, arcas perdidas de gran poder destructivo, condensadores de flujo… Pero, si no tienen nada de eso, no hay problema, pueden hacernos un regalo en forma de platita para nuestra luna de miel a:<br /> 
+        Maritza Piña Bustamante<br />
+        15642075-1<br />
+        Cta. Cte. 1575512-1<br />
+        Banco BICE<br />
+        lospignoli@gmail.com
       </>
     ),
   },
   {
-    title: 'What exactly does Gatsby build?',
+    title: 'Soy vegetariano, vegano, alérgico/ intolerante a algún alimento, ¿voy a poder comer algo?',
     content: () => (
       <>
-        Gatsby.js is a static PWA (Progressive Web App) generator. You get code
-        and data splitting out-of-the-box. Gatsby loads only the critical HTML,
-        CSS, data, and JavaScript so your site loads as fast as possible. Once
-        loaded, Gatsby prefetches resources for other pages so clicking around
-        the site feels incredibly fast.
+        Envíanos un correo con tus restricciones a lospignoli@gmail.com y nos encargaremos de que quedes con la guatita llena y el corazón contento.
+      </>
+    ),
+  },
+  {
+    title: 'Ustedes son raros, no fuman, no toman, ¿nos vamos a poder divertir?',
+    content: () => (
+      <>
+        No va a haber mesas designadas, ¡LIBERTAD! Todo va a funcionar como un buffet con cositas ricas escogidas con mucho amor.<br />
+Volviendo a la pregunta, vamos a tener copete pero no infinito. Si quieres tomar mucho o algún trago que ames en particular, puedes traerlo, ¡no hay problema!<br />
+Hay jardines y puedes fumar solo al aire libre, habrá recipientes para dejar las colillas, en eso queremos ser enfáticos, porfa, las colillas a los recipientes, no a la tierra o plantas.
+      </>
+    ),
+  },
+  {
+    title: '¿Va a haber buena música?',
+    content: () => (
+      <>
+        Por supuesto :) Queremos contarles que esta será una fiesta libre de reggaeton y trap. Tendremos nuestra lista especial de Spotify para bailar y pasarlo bacán. 
       </>
     ),
   },
@@ -67,7 +74,7 @@ const FAQS = [
 const Faq = () => (
   <Section id="faq">
     <Container>
-      <h1 style={{ marginBottom: 40 }}>Frequently Asked Questions</h1>
+      <h1 style={{ marginBottom: 40 }}>FAQ</h1>
       <div>
         {FAQS.map(({ title, content }) => (
           <FaqItem title={title} key={title}>

@@ -6,22 +6,17 @@ import Img from 'gatsby-image';
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
-import GithubIcon from '@static/icons/github.svg';
 import InstagramIcon from '@static/icons/instagram.svg';
 import TwitterIcon from '@static/icons/twitter.svg';
 
 const SOCIAL = [
   {
-    icon: GithubIcon,
-    link: 'https://github.com/ajayns/gatsby-absurd',
-  },
-  {
     icon: InstagramIcon,
-    link: 'https://instagram.com/ajay_ns',
+    link: 'https://instagram.com/lospignoli',
   },
   {
     icon: TwitterIcon,
-    link: 'https://twitter.com/ajayns08',
+    link: 'https://twitter.com/los_pignoli',
   },
 ];
 
@@ -31,7 +26,7 @@ const Footer = () => (
       query {
         art_pot: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "customers_pot" }
+          name: { eq: "pocho_falcor" }
         ) {
           childImageSharp {
             fluid(maxWidth: 960) {
@@ -52,12 +47,12 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Absurd</h2>
+              <h2>Los Pignoli</h2>
               <span>
-                Illustrations by
+                Ilustraciones por:
                 {` `}
-                <ExternalLink href="https://twitter.com/diana_valeanu">
-                  @diana_valeanu
+                <ExternalLink href="https://www.behance.net/maripinia">
+                  Maritza Piña
                 </ExternalLink>
               </span>
             </Copyright>
@@ -109,7 +104,8 @@ const Art = styled.figure`
   display: flex;
   justify-content: center;
   margin: 0;
-  margin-top: 48px;
+  margin-top: -3%;
+  margin-bottom: 60px;
 `;
 
 const StyledContainer = styled(Container)`

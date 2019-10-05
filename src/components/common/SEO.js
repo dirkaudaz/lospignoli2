@@ -2,11 +2,11 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'An absurd gatsby starter',
-  title: 'Absurd',
+  description: 'Página de nuestra fiesta de matrimonio',
+  title: 'Los Pignoli',
   url: '',
   author: 'ajayns',
-  keywords: ['gatsby', 'site', 'absurd'],
+  keywords: ['gatsby', 'site', 'pignoli'],
   twitter: {
     id: '@ajayns08',
     img: '',
