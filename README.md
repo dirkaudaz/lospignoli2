@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6e79c80-496e-4c48-b1d1-760b7eba02d8/deploy-status)](https://app.netlify.com/sites/hopeful-noyce-ccb7a8/deploys)
+
 # gatsby-absurd
 
 An absurd Gatsby starter. The collection of illustrations, [absurd.design](https://absurd.design/) by [Diana Valeanu](https://twitter.com/diana_valeanu) is a very fascinating and beautiful project with some pretty thoughtful concepts. Experimentation on how that could be put together on a site ended up as this starter.
