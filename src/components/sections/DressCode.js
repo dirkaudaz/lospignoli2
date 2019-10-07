@@ -34,7 +34,7 @@ const UsedBy = () => (
               </h2>
               <br />
               <p>
-              Lo que te haga muy feliz (nosotros vamos a estar hermosos y cómodos (recuerden que es muy mala educación andar más hermosos y cómodos que los novios).
+              Lo que te haga muy feliz! Nosotros vamos a estar hermosos y cómodos (recuerden que es muy mala educación andar más hermosos y cómodos que los novios).
               </p>
             </Text>
           </Grid>
