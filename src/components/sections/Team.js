@@ -27,15 +27,16 @@ const TEAM = [
     role: 'Novio',
   },
   {
-    name: 'Lorenzo Brugnoli',
-    image: 'martin.jpg',
-    role: 'Padre del Novio',
-  },
-  {
     name: 'Luz Maria González',
     image: 'rose.jpg',
     role: 'Madre del Novio',
   },
+  {
+    name: 'Lorenzo Brugnoli',
+    image: 'martin.jpg',
+    role: 'Padre del Novio (RIP)',
+  },
+  
 ];
 
 const Team = () => (

@@ -69,6 +69,30 @@ Hay jardines y puedes fumar solo al aire libre, habrá recipientes para dejar la
       </>
     ),
   },
+  {
+    title: '¿Por qué Pignoli?',
+    content: () => (
+      <>
+        Piña + Brugnoli = Pignoli. Simples matemáticas. 
+      </>
+    ),
+  },
+  {
+    title: 'La fiesta es durante el día y tengo hijos, ¿que hago?',
+    content: () => (
+      <>
+        ¡Trae a tus brocacochis! Tendremos la mejor selección de Fruna y un gran patio para que corran.  
+      </>
+    ),
+  },
+  {
+    title: '¿Hay algun programa o ceremonia?',
+    content: () => (
+      <>
+        Alrededor de las 15:00 hrs descenderá de la nave nodriza el <a href="https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster">Flying Spaghetti Monster</a> a bendecirnos. Después de eso sexo, drogas y rock'n rol (intencionalmente falta una L). 
+      </>
+    ),
+  },
 ];
 
 const Faq = () => (
